@@ -1,0 +1,90 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+	
+	{% if (location[0].category|length > 0) %}
+		{{ location[0].category|trans|title }} {{'in'|trans}} 
+
+		{% if (town_id) %} 
+			{{ location[0].town }},
+		{% endif %}
+		
+	{% elseif (town_id) %} 
+		Empresas {{'in'|trans}} {{ location[0].town }},
+	{% else %}
+		Empresas {{'in'|trans}} 
+	{% endif %} 
+	
+	{{ location[0].state }}
+
+	{% if curr_page > 1 %} | {{'Page'|trans}} {{curr_page}} {% endif %}{% endblock %}
+
+{% block body %}
+
+	<h3> 
+
+	{% if (location[0].category|length > 0) %}
+		{{ location[0].category|trans|title }} {{'in'|trans}} 
+
+		{% if (town_id) %} 
+			{{ location[0].town }},
+		{% endif %}
+
+	{% elseif (town_id) %} 
+		Empresas {{'in'|trans}} {{ location[0].town }},
+	{% else %}
+		Empresas {{'in'|trans}} 
+	{% endif %} 
+	
+	{{ location[0].state }}
+
+	{% if curr_page > 1 %} / {{'Page'|trans}} {{curr_page}} {% endif %}
+
+	</h3>
+
+{% for a in location %}
+
+	
+		<div class="pure-g">
+			<div class="pure-u-1 category-item-box">
+				<div class="pure-g">
+					<div class="pure-u-1 pure-u-sm-2-5 pure-u-md-1-5">
+						<a href="/{{a.id}}/{{a.slug}}"><img alt="{{a.name}}" {% if (a.google_image) %} style="opacity:0.6" {% endif %} class="vertical-align listimage" src="{% if a.image|length > 0 %} {{a.image}} {% else %} /img/noimage.jpg{% endif %}" />
+						{% if (a.google_image) %}
+							<img src="/img/overlay-map.png" class="cat-image-overlay" />
+						{% endif %}
+						</a>
+					</div>
+					<div class="pure-u-1 pure-u-sm-3-5 pure-u-md-4-5">
+						<strong><a href="/{{a.id}}/{{a.slug}}">{{a.name}} {{'Reviews'|trans}}</a></strong> 
+						<br>{{a.address}}
+
+						{% if a.text|length > 0 %}
+							<p>{{'Review'|trans}}: {{ a.text|length > 500 ? a.text|slice(0, 500) ~ '...' : a.text }} <a href="/{{a.id}}/{{a.slug}}">{{'Read more'|trans}}</a></p> 
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+	
+
+{% endfor %}
+{% if next_page == true %}
+<div class="pure-g">
+	<div class="pure-u-1 setborder margintop15 padding10">
+		{% set next_page = curr_page + 1 %}
+
+		<a href="{{next_page_url}}/page/{{next_page}}">{{'Next'|trans}}</a>
+	</div>
+</div>
+{% endif %}
+
+<script>
+$(window).load(function () {
+	$(".cat-image-overlay").each(function(){
+		$(this).show();
+	}); 
+});
+</script>
+
+{% endblock %}

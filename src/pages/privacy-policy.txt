@@ -1,0 +1,36 @@
+<h3> Datenschutzerklärung </h3>
+
+<p>
+Dieser Datenschutzhinweis beschreibt die Datenschutzpraktiken für diese Website. Diese Datenschutzerklärung gilt ausschließlich für Informationen, die von dieser Website gesammelt werden. Sie werden über Folgendes informiert:
+<ul>
+    <li> Welche personenbezogenen Daten werden von Ihnen über die Website gesammelt, wie werden sie verwendet und an wen können sie weitergegeben werden. </li>
+    <li> Welche Auswahlmöglichkeiten stehen Ihnen hinsichtlich der Verwendung Ihrer Daten zur Verfügung? </li>
+    <li> Die Sicherheitsmaßnahmen zum Schutz vor Missbrauch Ihrer Daten. </li>
+    <li> Wie Sie etwaige Ungenauigkeiten in den Informationen korrigieren können. </li>
+</ul>
+<h4> Erfassung, Verwendung und Weitergabe von Informationen </h4>
+Wir sind die alleinigen Eigentümer der auf dieser Website gesammelten Informationen. Wir haben nur Zugang zu Informationen, die Sie uns freiwillig per E-Mail oder über einen anderen direkten Kontakt von Ihnen zur Verfügung stellen. Wir werden diese Informationen an niemanden verkaufen oder vermieten.
+<p>
+Wir werden Ihre Informationen verwenden, um Ihnen zu antworten, aus welchem ​​Grund Sie uns kontaktiert haben. Wir geben Ihre Daten nur dann an Dritte außerhalb unserer Organisation weiter, wenn dies zur Erfüllung Ihrer Anfrage erforderlich ist, z. eine Bestellung versenden.
+</p>
+<p>
+Wenn Sie uns nicht darum bitten, werden wir Sie möglicherweise in Zukunft per E-Mail über Sonderangebote, neue Produkte oder Dienstleistungen oder Änderungen dieser Datenschutzrichtlinie informieren.
+</p>
+<p>
+Ihr Zugang zu und Kontrolle über Informationen
+Sie können sich jederzeit von zukünftigen Kontakten bei uns abmelden. Sie können jederzeit Folgendes tun, indem Sie uns über die auf unserer Website angegebene E-Mail-Adresse oder Telefonnummer kontaktieren:
+</p>
+<p> <ul>
+    <li> Sehen Sie, welche Daten wir über Sie haben, falls vorhanden. </li>
+    <li> Ändern / korrigieren Sie alle Daten, die wir über Sie haben. </li>
+    <li> Lassen Sie uns alle Daten löschen, die wir über Sie haben. </li>
+   <li> Äußern Sie Ihre Besorgnis über die Verwendung Ihrer Daten durch uns. </li>
+    </ul>
+</p>
+<p>
+<h4> Sicherheit </h4>
+Wir treffen Vorkehrungen zum Schutz Ihrer Daten. Wenn Sie vertrauliche Informationen über die Website übermitteln, werden Ihre Informationen sowohl online als auch offline geschützt.
+</p>
+<p>
+Überall, wo wir sensible Informationen sammeln, werden diese Informationen verschlüsselt und auf sichere Weise an uns übertragen. Die Computer / Server, auf denen wir personenbezogene Daten speichern, werden in einer sicheren Umgebung aufbewahrt.
+</p>
